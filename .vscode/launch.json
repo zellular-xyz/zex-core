@@ -21,6 +21,7 @@
       "type": "debugpy",
       "request": "launch",
       "cwd": "${workspaceFolder}",
+      "env": { "TEST_MODE": "1" },
       "program": "/home/ms/miniconda3/envs/zex-py310/bin/fastapi",
       "args": ["dev", "--no-reload", "app/main.py"]
     }
