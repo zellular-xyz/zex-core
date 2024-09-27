@@ -2,3 +2,5 @@ __pycache__
 profile_output*
 *.ipynb
 node_modules
+*.env
+*.envrc
